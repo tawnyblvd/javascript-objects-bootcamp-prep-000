@@ -10,5 +10,6 @@ function updatePlaylist(playlist, artistName, songTitle) {
 updatePlaylist("Phil Ochs", "Here's to the State of Mississippi");
 
 function removeFromPlaylist(playlist, artistName) {
-  playlist[]
+  delete playlist.artistName;
 }
+removeFromPlaylist(playlist, ["Slowdive"]);
